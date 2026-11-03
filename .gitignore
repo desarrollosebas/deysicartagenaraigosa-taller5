@@ -1,0 +1,44 @@
+# Archivos ignorados por Git
+
+# ---- Archivos con datos personales (NUNCA publicar) ----
+migration/scripts/MAPEO_PRIVADO_NO_PUBLICAR.csv
+**/MAPEO_PRIVADO*.csv
+
+# ---- Archivos originales con datos sensibles ----
+*.xlsm
+*.xls
+Paquete_Claude_Control_Produccion/
+Practica_Usuarios_Directorio_Activo.xlsx
+
+# ---- Accesos directos y configuración local ----
+*.lnk
+*.ini
+*.cfg
+
+# ---- DBeaver ----
+.dbeaver/
+*.dbeaver-data-sources.xml
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# ---- Sistema operativo ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Temporales ----
+*.tmp
+*.bak
+~$*
+
