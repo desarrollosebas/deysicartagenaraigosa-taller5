@@ -13,7 +13,7 @@
 
 1. El archivo XLSM se extrajo a CSV mediante lectura del paquete Office Open XML (sin ejecutar macros)
 2. Se generaron CSVs por hoja y reportes de diagnóstico
-3. Los archivos originales se conservan intactos en `Paquete_Claude_Control_Produccion/01_FUENTES_ORIGINALES/`
+3. Los archivos originales se conservan intactos en `insumos_originales/01_FUENTES_ORIGINALES/`
 
 ## 3. Transformaciones aplicadas
 
