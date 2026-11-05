@@ -7,7 +7,7 @@ migration/scripts/MAPEO_PRIVADO_NO_PUBLICAR.csv
 # ---- Archivos originales con datos sensibles ----
 *.xlsm
 *.xls
-Paquete_Claude_Control_Produccion/
+insumos_originales/
 Practica_Usuarios_Directorio_Activo.xlsx
 
 # ---- Accesos directos y configuración local ----
