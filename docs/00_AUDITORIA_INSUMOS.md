@@ -13,7 +13,7 @@
 | 2 | `Practica_Usuarios_Directorio_Activo.xlsx` | ✅ | ❌ No pertenece a este proyecto |
 | 3 | `SEGUIMIENTO TEMPERAS Y VINILOS Actividad(1).xlsm` | ✅ (en paquete) | **Insumo histórico principal** — Libro Excel con macros |
 | 4 | `DBeaver.lnk` | ✅ | Acceso directo a DBeaver |
-| 5 | `Paquete_Claude_Control_Produccion/` | ✅ | Extracción completa del Excel en CSV + reportes |
+| 5 | `insumos_originales/` | ✅ | Extracción completa del Excel en CSV + reportes |
 
 ### Contenido del paquete de extracción
 
