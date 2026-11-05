@@ -5,7 +5,7 @@
 | Campo | Valor |
 |-------|-------|
 | **Asignatura** | Bases de Datos I |
-| **Actividad** | Taller 5 — Proyecto Final |
+| **Actividad** | Taller 5  |
 | **Integrante 1** | Juan Sebastián Raigosa Gil (desarrollosebas) |
 | **Integrante 2** | Deysi Carolina Echavarría Soto (CarolinaSoto22) |
 | **Integrante 3** | Jose Miguel Sosa Cartagena (josesosa216-pb) |
