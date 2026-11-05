@@ -186,5 +186,5 @@ El factor de producción varía según la máquina:
 | Integrante 1 | Juan Sebastián Raigosa Gil (desarrollosebas) |
 | Integrante 2 | Deysi Carolina Echavarría Soto (CarolinaSoto22) |
 | Integrante 3 | Jose Miguel Sosa Cartagena (josesosa216-pb) |
-| Guía del profesor | Lo transcrito en el prompt es toda la información disponible |
+| Guía del profesor | Lo transcrito en la guía de la actividad es toda la información disponible |
 | Excel disponible | ✅ Sí (en paquete de extracción) |
