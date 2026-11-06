@@ -32,7 +32,7 @@ El Excel presenta problemas de:
 
 La base de datos relacional resuelve estos problemas mediante normalización a **3FN**, catálogos con integridad referencial y consultas SQL estructuradas.
 
-## 🗂️ Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 ├── README.md                          ← Este archivo
@@ -71,7 +71,7 @@ La base de datos relacional resuelve estos problemas mediante normalización a *
     └── BDI_Taller5_Raigosa_Echavarria_Sosa.pdf ← Informe final completo (15 páginas)
 ```
 
-## 🚀 Cómo ejecutar desde cero en DBeaver
+##  Cómo ejecutar desde cero en DBeaver
 
 ### Requisitos
 - MySQL 8.x instalado y en ejecución
@@ -98,7 +98,7 @@ sql/09_pruebas_restricciones.sql → Ejecuta pruebas
 
 3. Para ejecutar en DBeaver: abrir cada archivo → Ctrl+Enter o Alt+X
 
-## 📊 Modelo de datos
+##  Modelo de datos
 
 El esquema tiene **11 tablas** normalizadas hasta **3FN**:
 
@@ -108,13 +108,13 @@ El esquema tiene **11 tablas** normalizadas hasta **3FN**:
 - **1 tabla de hechos**: registro_produccion
 - **2 tablas de detalle**: detalle_paro, detalle_subcodigo
 
-## 🔒 Protección de datos personales
+##  Protección de datos personales
 
 Los nombres reales de operarios y personal de mantenimiento han sido **pseudonimizados**:
 - Operarios → OP-001, OP-002, ..., OP-032
 - El mapeo real↔pseudónimo se almacena localmente y **no se publica** en el repositorio
 
-## 📈 Consultas implementadas
+##  Consultas implementadas
 
 1. Productividad por máquina y mes (comparativo anual)
 2. Participación porcentual de cada código de paro
