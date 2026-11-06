@@ -47,7 +47,6 @@ La base de datos relacional resuelve estos problemas mediante normalización a *
 │   ├── 06_VALIDACION_MIGRACION.md    ← Reporte cuantitativo de la migración
 │   ├── 07_INDICADORES_Y_CONSULTAS.md ← Fórmulas de productividad y catálogo de consultas
 │   ├── 08_PRUEBAS_Y_VALIDACION.md    ← Plan de pruebas y procedimiento de ejecución
-│   ├── 09_GUIA_SUSTENTACION.md       ← Guía para defender el proyecto
 │   └── modelo/
 │       ├── 01_modelo_conceptual.md   ← Modelo entidad-relación conceptual
 │       ├── 02_modelo_logico.md       ← Modelo relacional lógico
