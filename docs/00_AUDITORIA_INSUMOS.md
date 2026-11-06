@@ -10,10 +10,8 @@
 | # | Archivo | Presente | Relevancia |
 |---|---------|----------|------------|
 | 1 | `P-MTO-21-V1_Registro_paros_de_produccion_actividad.pdf` | ✅ | Procedimiento oficial P-MTO-22 V1 (7 págs.) |
-| 2 | `Practica_Usuarios_Directorio_Activo.xlsx` | ✅ | ❌ No pertenece a este proyecto |
-| 3 | `SEGUIMIENTO TEMPERAS Y VINILOS Actividad(1).xlsm` | ✅ (en paquete) | **Insumo histórico principal** — Libro Excel con macros |
-| 4 | `DBeaver.lnk` | ✅ | Acceso directo a DBeaver |
-| 5 | `insumos_originales/` | ✅ | Extracción completa del Excel en CSV + reportes |
+| 2 | `SEGUIMIENTO TEMPERAS Y VINILOS Actividad(1).xlsm` | ✅ (en insumos) | **Insumo histórico principal** — Libro Excel con macros |
+| 3 | `insumos_originales/` | ✅ | Extracción de insumos del Excel en CSV + reportes |
 
 ### Contenido del paquete de extracción
 
@@ -186,5 +184,5 @@ El factor de producción varía según la máquina:
 | Integrante 1 | Juan Sebastián Raigosa Gil (desarrollosebas) |
 | Integrante 2 | Deysi Carolina Echavarría Soto (CarolinaSoto22) |
 | Integrante 3 | Jose Miguel Sosa Cartagena (josesosa216-pb) |
-| Guía del profesor | Lo transcrito en la guía de la actividad es toda la información disponible |
+| Guía del profesor | Lo indicado en la guía de la actividad entregada en clase |
 | Excel disponible | ✅ Sí (en paquete de extracción) |

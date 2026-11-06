@@ -8,7 +8,10 @@ migration/scripts/MAPEO_PRIVADO_NO_PUBLICAR.csv
 *.xlsm
 *.xls
 insumos_originales/
-Practica_Usuarios_Directorio_Activo.xlsx
+
+# ---- Scripts internos de utilidad ----
+migration/scripts/ejecutar_commits_progresivos.py
+migration/scripts/generar_reporte_pdf.py
 
 # ---- Accesos directos y configuración local ----
 *.lnk

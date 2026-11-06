@@ -1,4 +1,4 @@
--- Operarios pseudonimizados (generado automáticamente)
+-- Catálogo de operarios de producción (pseudonimizados)
 -- NO contiene nombres reales
 USE paros_produccion;
 

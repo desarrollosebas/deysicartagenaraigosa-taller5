@@ -14,8 +14,7 @@ from collections import OrderedDict
 
 # Rutas
 BASE = r"c:\Users\Sebas\Desktop\Bases datos 1\TRABAJO2"
-CSV_DIR = os.path.join(BASE, "Paquete_Claude_Control_Produccion",
-                       "Paquete_Claude_Control_Produccion", "02_EXTRACCION_EXCEL")
+CSV_DIR = os.path.join(BASE, "insumos_originales", "02_EXTRACCION_EXCEL")
 OUTPUT_DIR = os.path.join(BASE, "sql")
 
 # Archivo principal
@@ -266,7 +265,7 @@ def main():
     # ---- Escribir archivo de operarios ----
     print(f"Generando SQL de operarios ({len(operarios_map)} encontrados)...")
     with open(os.path.join(OUTPUT_DIR, '04_datos_operarios.sql'), 'w', encoding='utf-8') as f:
-        f.write("-- Operarios pseudonimizados (generado automáticamente)\n")
+        f.write("-- Catálogo de operarios de producción (pseudonimizados)\n")
         f.write("-- NO contiene nombres reales\n")
         f.write("USE paros_produccion;\n\n")
         for name, pseudo in operarios_map.items():
@@ -313,10 +312,11 @@ def main():
             final_regs.append(reg)
         
         for i, reg in enumerate(final_regs):
-            sep = ',' if i < len(final_regs) - 1 else ';'
+            is_last_in_batch = ((i + 1) % batch_size == 0) or (i == len(final_regs) - 1)
+            sep = ';' if is_last_in_batch else ','
             f.write(f"{reg}{sep}\n")
             if (i + 1) % batch_size == 0 and i < len(final_regs) - 1:
-                f.write(";\n\nINSERT INTO registro_produccion\n")
+                f.write("\nINSERT INTO registro_produccion\n")
                 f.write("(id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,\n")
                 f.write(" horas_trabajadas, meta_por_hora, pacas_producidas, horas_no_trabajadas,\n")
                 f.write(" id_tipo_paro, observaciones_paro, tiempo_paro_minutos, observaciones)\n")
@@ -333,10 +333,11 @@ def main():
         
         f.write("INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)\nVALUES\n")
         for i, dp in enumerate(detalles_paro_sql):
-            sep = ',' if i < len(detalles_paro_sql) - 1 else ';'
+            is_last_in_batch = ((i + 1) % 1000 == 0) or (i == len(detalles_paro_sql) - 1)
+            sep = ';' if is_last_in_batch else ','
             f.write(f"{dp}{sep}\n")
             if (i + 1) % 1000 == 0 and i < len(detalles_paro_sql) - 1:
-                f.write(";\n\nINSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)\nVALUES\n")
+                f.write("\nINSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)\nVALUES\n")
         
         f.write("\nSET FOREIGN_KEY_CHECKS = 1;\n")
     

@@ -8,8 +8,7 @@ import os
 from collections import OrderedDict
 
 BASE = r"c:\Users\Sebas\Desktop\Bases datos 1\TRABAJO2"
-CSV_DIR = os.path.join(BASE, "Paquete_Claude_Control_Produccion",
-                       "Paquete_Claude_Control_Produccion", "02_EXTRACCION_EXCEL")
+CSV_DIR = os.path.join(BASE, "insumos_originales", "02_EXTRACCION_EXCEL")
 SUB_CSV = os.path.join(CSV_DIR, "BASE_DATOS_SUBCODIGOS.csv")
 OUTPUT = os.path.join(BASE, "sql", "07b_datos_subcodigos.sql")
 

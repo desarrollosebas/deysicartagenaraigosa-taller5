@@ -1004,8 +1004,7 @@ VALUES
 (309, 5, 10.0),
 (309, 6, 1.0),
 (309, 7, 20.0),
-(309, 11, 10.0),
-;
+(309, 11, 10.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -2008,8 +2007,7 @@ VALUES
 (607, 1, 45.0),
 (607, 5, 180.0),
 (607, 6, 69.0),
-(607, 16, 40.0),
-;
+(607, 16, 40.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -3012,8 +3010,7 @@ VALUES
 (871, 10, 5.0),
 (871, 12, 60.0),
 (871, 16, 40.0),
-(871, 17, 3.0),
-;
+(871, 17, 3.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -4016,8 +4013,7 @@ VALUES
 (1151, 17, 3.0),
 (1152, 6, 30.0),
 (1152, 9, 30.0),
-(1152, 16, 40.0),
-;
+(1152, 16, 40.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -5020,8 +5016,7 @@ VALUES
 (1445, 16, 40.0),
 (1445, 17, 3.0),
 (1446, 16, 40.0),
-(1446, 17, 3.0),
-;
+(1446, 17, 3.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -6024,8 +6019,7 @@ VALUES
 (1748, 5, 342.0),
 (1748, 7, 40.0),
 (1748, 16, 40.0),
-(1748, 17, 3.0),
-;
+(1748, 17, 3.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -7028,8 +7022,7 @@ VALUES
 (2293, 16, 90.0),
 (2293, 17, 6.0),
 (2294, 6, 31.0),
-(2294, 16, 40.0),
-;
+(2294, 16, 40.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -8032,8 +8025,7 @@ VALUES
 (3032, 7, 5.0),
 (3032, 16, 95.0),
 (3032, 17, 6.0),
-(3033, 6, 5.0),
-;
+(3033, 6, 5.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -9036,8 +9028,7 @@ VALUES
 (3495, 15, 7.0),
 (3495, 16, 35.0),
 (3495, 17, 3.0),
-(3496, 6, 68.0),
-;
+(3496, 6, 68.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -10040,8 +10031,7 @@ VALUES
 (3942, 3, 10.0),
 (3942, 5, 15.0),
 (3943, 5, 100.0),
-(3944, 5, 18.0),
-;
+(3944, 5, 18.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -11044,8 +11034,7 @@ VALUES
 (4390, 5, 32.0),
 (4391, 5, 10.0),
 (4392, 5, 11.0),
-(4393, 6, 206.0),
-;
+(4393, 6, 206.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -12048,8 +12037,7 @@ VALUES
 (4793, 6, 20.0),
 (4793, 7, 20.0),
 (4794, 1, 20.0),
-(4794, 6, 30.0),
-;
+(4794, 6, 30.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -13052,8 +13040,7 @@ VALUES
 (5253, 1, 15.0),
 (5253, 12, 3.0),
 (5253, 17, 25.0),
-(5256, 6, 145.0),
-;
+(5256, 6, 145.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -14056,8 +14043,7 @@ VALUES
 (5954, 17, 15.0),
 (5955, 5, 10.0),
 (5955, 17, 25.0),
-(5956, 17, 15.0),
-;
+(5956, 17, 15.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -15060,8 +15046,7 @@ VALUES
 (6829, 17, 15.0),
 (6830, 12, 10.0),
 (6830, 15, 15.0),
-(6830, 17, 60.0),
-;
+(6830, 17, 60.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES
@@ -16064,8 +16049,7 @@ VALUES
 (7773, 1, 5.0),
 (7773, 15, 10.0),
 (7774, 1, 20.0),
-(7774, 15, 10.0),
-;
+(7774, 15, 10.0);
 
 INSERT INTO detalle_paro (id_registro, id_codigo, duracion_minutos)
 VALUES

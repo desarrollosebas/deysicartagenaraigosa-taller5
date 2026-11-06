@@ -509,8 +509,7 @@ VALUES
 (497, '2025-01-28', 3, 3, 9, 14, 8.0, NULL, 50, 0.0, 1, NULL, 1.3666666666666667, NULL),
 (498, '2025-01-28', 3, 3, 9, 14, NULL, NULL, NULL, NULL, NULL, NULL, 0.25, NULL),
 (499, '2025-01-28', 3, 3, 9, 14, NULL, NULL, NULL, NULL, NULL, NULL, 0.13333333333333333, NULL),
-(500, '2025-01-28', 3, 2, 4, 14, 8.0, NULL, 56, 0.0, 1, NULL, 1.0, NULL),
-;
+(500, '2025-01-28', 3, 2, 4, 14, 8.0, NULL, 56, 0.0, 1, NULL, 1.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -1018,8 +1017,7 @@ paros por ventaja'),
 (997, '2024-11-09', 1, 3, 18, 11, 8.0, NULL, 43, 0.0, 1, NULL, 3.3833333333333333, NULL),
 (998, '2024-11-09', 1, 2, 4, 11, 7.0, NULL, 43, 0.0, 1, NULL, 2.2166666666666663, NULL),
 (999, '2024-11-09', 1, 1, NULL, 11, 7.0, NULL, 30, 0.0, 1, NULL, 2.7166666666666663, NULL),
-(1000, '2024-11-08', 4, 3, 8, 6, 8.0, NULL, 59, 0.0, 1, NULL, 0.7166666666666667, NULL),
-;
+(1000, '2024-11-08', 4, 3, 8, 6, 8.0, NULL, 59, 0.0, 1, NULL, 0.7166666666666667, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -1718,8 +1716,7 @@ tapa con punto de inyeccion largo
 envase escaso'),
 (1498, '2024-08-27', 3, 3, 13, 15, 8.0, NULL, 37, 0.0, 1, NULL, 1.3833333333333333, NULL),
 (1499, '2024-08-27', 1, 3, 4, 11, 8.0, NULL, 23, 0.0, 1, NULL, 3.8, NULL),
-(1500, '2024-08-27', 4, 1, 8, 12, 8.0, NULL, 70, 0.0, 1, NULL, 1.55, NULL),
-;
+(1500, '2024-08-27', 4, 1, 8, 12, 8.0, NULL, 70, 0.0, 1, NULL, 1.55, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -2272,8 +2269,7 @@ Ventaja sin codificar'),
 (1997, '2024-05-19', 3, 7, NULL, NULL, 0.0, NULL, 0, 24.0, 5, 'No se programo por demanda', 0.0, NULL),
 (1998, '2024-05-19', 3, 7, NULL, NULL, 0.0, NULL, 0, 24.0, 5, 'No se programo por demanda', 0.0, NULL),
 (1999, '2024-05-19', 1, 7, NULL, NULL, 0.0, NULL, 0, 24.0, 5, 'No se programo por demanda', 0.0, NULL),
-(2000, '2024-05-19', 3, 7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0, NULL),
-;
+(2000, '2024-05-19', 3, 7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -2783,8 +2779,7 @@ Paro 3:50, no hay display'),
 (2497, '2024-04-08', 3, 1, 4, 42, 1.0, NULL, 0, 0.0, 1, NULL, 0.08333333333333333, NULL),
 (2498, '2024-04-08', 3, 1, 4, 42, 3.0, NULL, 0, 0.0, 1, NULL, 0.4166666666666667, NULL),
 (2499, '2024-04-08', 3, 1, 4, 42, 1.0, NULL, 0, 0.0, 1, NULL, 0.0, NULL),
-(2500, '2024-04-08', 2, 7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0, NULL),
-;
+(2500, '2024-04-08', 2, 7, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -3290,8 +3285,7 @@ VALUES
 (2997, '2024-02-14', 3, 3, 16, 1, 8.0, NULL, 52, 0.0, 1, NULL, 1.0, NULL),
 (2998, '2024-02-14', 2, 4, 5, 3, 10.5, NULL, 270, 13.5, 5, 'No se programo por demanda', 3.15, NULL),
 (2999, '2024-02-14', 1, 4, 17, 11, 10.5, NULL, 80, 13.5, 5, 'No se programo por demanda', 2.816666666666667, NULL),
-(3000, '2024-02-14', 4, 2, 12, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.2833333333333333, NULL),
-;
+(3000, '2024-02-14', 4, 2, 12, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.2833333333333333, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -3797,8 +3791,7 @@ VALUES
 (3497, '2024-01-11', 4, 2, 29, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.3333333333333333, NULL),
 (3498, '2024-01-11', 4, 1, 26, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.5, NULL),
 (3499, '2024-01-11', 4, 3, 13, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.25, NULL),
-(3500, '2024-01-11', 3, 1, 17, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.16666666666666666, NULL),
-;
+(3500, '2024-01-11', 3, 1, 17, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.16666666666666666, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -4304,8 +4297,7 @@ VALUES
 (3997, '2023-12-11', 3, 2, 8, 7, NULL, NULL, NULL, NULL, NULL, NULL, 1.8666666666666667, NULL),
 (3998, '2023-12-11', 3, 1, 13, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.6, NULL),
 (3999, '2023-12-11', 3, 1, 13, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.5, NULL),
-(4000, '2023-12-11', 3, 2, 27, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.16666666666666666, NULL),
-;
+(4000, '2023-12-11', 3, 2, 27, 7, NULL, NULL, NULL, NULL, NULL, NULL, 0.16666666666666666, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -4811,8 +4803,7 @@ VALUES
 (4497, '2023-10-31', 3, 7, NULL, 12, 0.0, NULL, 0, 24.0, 5, 'No se programo por demanda', 0.75, NULL),
 (4498, '2023-10-31', 4, 7, NULL, 1, 8.0, NULL, 56, 0.0, 1, NULL, 1.0833333333333335, NULL),
 (4499, '2023-10-31', 4, 7, NULL, 1, 8.0, NULL, 47, 0.0, 1, NULL, 1.616666666666667, NULL),
-(4500, '2023-10-31', 4, 7, NULL, 1, 8.0, NULL, 47, 0.0, 1, NULL, 1.7, NULL),
-;
+(4500, '2023-10-31', 4, 7, NULL, 1, 8.0, NULL, 47, 0.0, 1, NULL, 1.7, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -5318,8 +5309,7 @@ VALUES
 (4997, '2023-08-04', 4, 7, NULL, NULL, 8.0, NULL, 58, NULL, NULL, NULL, 1.7833333333333337, NULL),
 (4998, '2023-08-04', 4, 7, NULL, NULL, 8.0, NULL, 73, NULL, NULL, NULL, 0.8, NULL),
 (4999, '2023-08-04', 4, 7, NULL, NULL, 8.0, NULL, 71, NULL, NULL, NULL, 1.1333333333333333, NULL),
-(5000, '2023-08-04', 4, 7, NULL, NULL, 8.0, NULL, 58, NULL, NULL, NULL, 1.7833333333333337, NULL),
-;
+(5000, '2023-08-04', 4, 7, NULL, NULL, 8.0, NULL, 58, NULL, NULL, NULL, 1.7833333333333337, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -5825,8 +5815,7 @@ VALUES
 (5497, '2023-05-24', 1, 7, NULL, NULL, 8.0, NULL, 80, NULL, NULL, NULL, 0.5833333333333333, NULL),
 (5498, '2023-05-24', 4, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO POR DEMANDA', 0.0, NULL),
 (5499, '2023-05-24', 3, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO POR DEMANDA', 0.0, NULL),
-(5500, '2023-05-24', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO POR DEMANDA', 0.0, NULL),
-;
+(5500, '2023-05-24', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO POR DEMANDA', 0.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -6332,8 +6321,7 @@ VALUES
 (5997, '2023-03-15', 1, 7, NULL, NULL, 8.0, NULL, 12, NULL, NULL, NULL, 0.25, NULL),
 (5998, '2023-03-15', 4, 7, NULL, NULL, 8.0, NULL, 53, NULL, NULL, NULL, 0.25, NULL),
 (5999, '2023-03-15', 4, 7, NULL, NULL, 8.0, NULL, 47, NULL, NULL, NULL, 0.25, NULL),
-(6000, '2023-03-15', 4, 7, NULL, NULL, 8.0, NULL, 50, NULL, NULL, NULL, 1.8333333333333335, NULL),
-;
+(6000, '2023-03-15', 4, 7, NULL, NULL, 8.0, NULL, 50, NULL, NULL, NULL, 1.8333333333333335, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -6839,8 +6827,7 @@ VALUES
 (6497, '2023-01-08', 4, 7, NULL, NULL, NULL, NULL, NULL, 16.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
 (6498, '2023-01-08', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
 (6499, '2023-01-08', 3, 7, NULL, NULL, NULL, NULL, NULL, 16.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
-(6500, '2023-01-08', 1, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
-;
+(6500, '2023-01-08', 1, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -7346,8 +7333,7 @@ VALUES
 (6997, '2022-10-29', 3, 7, NULL, NULL, NULL, NULL, NULL, 8.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
 (6998, '2022-10-29', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
 (6999, '2022-10-29', 1, 7, NULL, NULL, NULL, NULL, NULL, 16.0, 10, 'NO SE PROGRAMO EL FIN DE SEMANA POR DEMANDA', 0.0, NULL),
-(7000, '2022-10-28', 1, 7, NULL, NULL, 8.0, NULL, 48, NULL, NULL, NULL, 0.25, NULL),
-;
+(7000, '2022-10-28', 1, 7, NULL, NULL, 8.0, NULL, 48, NULL, NULL, NULL, 0.25, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -7853,8 +7839,7 @@ VALUES
 (7497, '2022-04-14', 4, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 17, 'SEMANA DE RESESO', 0.0, NULL),
 (7498, '2022-04-14', 3, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 17, 'SEMANA DE RESESO', 0.0, NULL),
 (7499, '2022-04-14', 1, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 17, 'SEMANA DE RESESO', 0.0, NULL),
-(7500, '2022-04-14', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 17, 'SEMANA DE RESESO', 0.0, NULL),
-;
+(7500, '2022-04-14', 2, 7, NULL, NULL, NULL, NULL, NULL, 24.0, 17, 'SEMANA DE RESESO', 0.0, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
@@ -8360,8 +8345,7 @@ VALUES
 (7997, '2022-01-31', 2, 7, NULL, NULL, 8.0, NULL, 28, NULL, NULL, NULL, 5.0, NULL),
 (7998, '2022-01-31', 3, 7, NULL, NULL, 8.0, NULL, 40, NULL, NULL, NULL, 0.0, NULL),
 (7999, '2022-01-31', 3, 7, NULL, NULL, 8.0, NULL, 55, NULL, NULL, NULL, 4.416666666666667, NULL),
-(8000, '2022-01-31', 3, 7, NULL, NULL, 8.0, NULL, 53, NULL, NULL, NULL, 0.5, NULL),
-;
+(8000, '2022-01-31', 3, 7, NULL, NULL, 8.0, NULL, 53, NULL, NULL, NULL, 0.5, NULL);
 
 INSERT INTO registro_produccion
 (id_registro, fecha, id_maquina, id_turno, id_operario, id_referencia,
