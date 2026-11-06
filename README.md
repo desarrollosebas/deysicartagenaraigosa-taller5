@@ -1,6 +1,6 @@
 # Taller 5 — Base de Datos para Registro de Paros de Producción
 
-## 📋 Información del proyecto
+##  Información del proyecto
 
 | Campo | Valor |
 |-------|-------|
@@ -15,11 +15,11 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Diseñar, implementar y poblar una base de datos relacional normalizada que reemplace el libro Excel usado actualmente para registrar los paros de producción de las líneas de envasado de vinilos de una empresa fabricante de pinturas.
 
-## 📖 Contexto del problema
+##  Contexto del problema
 
 La empresa opera **4 líneas de envasado** (Vinilos_1 a Vinilos_4) donde las operarias registran manualmente la producción y los paros en un formato "hora a hora". Esta información se transcribe a un libro Excel con macros que almacena más de **8,200 registros históricos** (2022-2025) y genera indicadores de productividad.
 
