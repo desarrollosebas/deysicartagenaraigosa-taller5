@@ -192,36 +192,10 @@ ORDER BY veces_ocurrido DESC
 LIMIT 10;
 
 
--- ============================================================================
--- CONSULTA 8: COMPARACIÓN DE PRODUCCIÓN REAL VS META
--- ============================================================================
--- Pregunta: ¿Qué máquinas cumplen con la meta de producción?
--- Requisitos SQL demostrados: INNER JOIN, AVG, GROUP BY, subconsulta, HAVING
--- ============================================================================
-
-SELECT 
-    m.nombre AS maquina,
-    YEAR(rp.fecha) AS anio,
-    COUNT(*) AS total_turnos,
-    ROUND(AVG(rp.pacas_producidas), 0) AS promedio_pacas_real,
-    ROUND(AVG(rp.horas_trabajadas * rp.meta_por_hora), 0) AS promedio_meta,
-    ROUND(
-        AVG(rp.pacas_producidas) / NULLIF(AVG(rp.horas_trabajadas * rp.meta_por_hora), 0) * 100
-    , 1) AS cumplimiento_porcentaje
-FROM registro_produccion rp
-INNER JOIN maquina m ON rp.id_maquina = m.id_maquina
-WHERE rp.pacas_producidas IS NOT NULL
-  AND rp.pacas_producidas > 0
-  AND rp.horas_trabajadas > 0
-  AND rp.meta_por_hora IS NOT NULL
-  AND rp.meta_por_hora > 0
-GROUP BY m.nombre, YEAR(rp.fecha)
-HAVING COUNT(*) >= 5
-ORDER BY m.nombre, anio;
 
 
 -- ============================================================================
--- CONSULTA 9: DISTRIBUCIÓN DE PAROS POR ÁREA DE IMPACTO
+-- CONSULTA 8: DISTRIBUCIÓN DE PAROS POR ÁREA DE IMPACTO
 -- ============================================================================
 -- Pregunta: ¿Qué área genera más tiempo de paro?
 -- Requisitos SQL demostrados: INNER JOIN, SUM, GROUP BY
@@ -244,7 +218,7 @@ ORDER BY total_horas DESC;
 
 
 -- ============================================================================
--- CONSULTA 10: OPERARIOS CON REGISTROS SIN PRODUCCIÓN
+-- CONSULTA 9: OPERARIOS CON REGISTROS SIN PRODUCCIÓN
 -- ============================================================================
 -- Pregunta: ¿Cuántos turnos tuvo cada operario sin producción reportada?
 -- Requisitos SQL demostrados: LEFT JOIN, COUNT, GROUP BY, HAVING
@@ -265,4 +239,6 @@ WHERE o.pseudonimo IS NOT NULL
 GROUP BY o.pseudonimo
 HAVING COUNT(*) >= 10
 ORDER BY porcentaje_sin_produccion DESC;
+
+
 
